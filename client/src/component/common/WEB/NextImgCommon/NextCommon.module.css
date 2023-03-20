@@ -1,0 +1,104 @@
+.Carousel {
+    position: relative;
+    display: flex;
+
+}
+ /* CSS ẢNH */
+.img {
+    height: 500px;
+    /* display: none; */
+    margin-left: 170px;
+    width: 500px;
+}
+
+.left {
+    right: 1%;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.right {
+    left: 1%;
+    font-size: 20px;
+   margin-left: 350px;
+}
+
+.nut button {
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    height: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: #fff;
+    background: #000;
+    position: relative;
+    top: calc(50% - 25px);
+    opacity: 0.5;
+}
+
+
+/* CSS Nội Dung */
+.tong{
+    margin-left: 50px;
+}
+.noidung p{
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: .6px;
+    line-height: 24px;
+    color: #2d2d2d;
+}
+.noidung h4{
+    margin-top: 12px;
+}
+
+/* CSS NÚt Mua và Tym */
+.tym{
+    color: #d01345;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    line-height: 16px;
+    padding: 0px 4px;
+    width: 325px;
+    display: flex;
+}
+.mua{
+    font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    width: 100%;
+    float: left;
+    background-color: #018849;
+    display: table;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+}
+.mua:hover{
+    background-color: #03552f
+}
+.btn_like {
+    width: 36px;
+    height: 36px;
+    /* margin-top: 340px; */
+    background-color: rgb(221 215 215 / 50%);;
+    border-radius: 50%;
+    border: none;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.heart {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    color: #0f0f0f;
+}
+

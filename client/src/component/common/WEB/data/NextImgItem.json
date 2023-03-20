@@ -1,0 +1,19 @@
+[
+    {
+      "name": "iPhone 13",
+      "price": "1000",
+      "description": "adidas Football Tiro 23 t-shirt in black and white",
+      "thumbnails": [
+        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-1-butterscotchfloral?$n_240w$&wid=168&fit=constrain",
+        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-2?$n_240w$&wid=40&fit=constrain",
+        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-3?$n_240w$&wid=40&fit=constrain",
+        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-4?$n_240w$&wid=40&fit=constrain"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/59/80/54/5980543f1983c2b66e5671a78053fe7e.gif",
+        "https://i.pinimg.com/originals/a1/d1/0c/a1d10c114e9fc3712d3d398d05573f77.gif",
+        "https://i.pinimg.com/originals/04/76/8c/04768ce51fa5222fd0e5ec2b499196eb.gif",
+        "https://i.pinimg.com/originals/5c/06/77/5c06777d51f1292525060ce6b9fa3423.gif"
+      ]
+    }
+]

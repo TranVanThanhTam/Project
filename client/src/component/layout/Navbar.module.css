@@ -1,0 +1,188 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* top: 0;
+    position: absolute; */
+  }
+  /* TOP BAR */
+  .top {
+    height: 30px;
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1366px;
+    box-sizing: border-box;
+    padding: 0 32px;
+    justify-content: flex-end;
+  }
+  .lang_group {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    /* float: right; */
+  }
+  .lang {
+    display: flex;
+    float: left;
+    height: 100%;
+    border-left: 1px solid #ddd;
+    color: #666666;
+    padding: 0px 19px;
+    font-size: 13px;
+    font-family: candara;
+    align-items: center;
+    letter-spacing: 1px;
+  }
+  .img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #ddd;
+  }
+  
+  /* MID BAR */
+  .mid {
+    height: 60px;
+    /* width: fit-content; */
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: row;
+  }
+  .mid_man {
+    height: 100%;
+    width: 100%;
+    max-width: 1366px;
+    padding: 0 32px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  /* Mid Left */
+  .mid_left {
+    height: 100%;
+    display: flex;
+    width: 100%;
+  }
+  .logo_bg {
+    height: 100%;
+    text-align: center;
+    margin-left: -20px;
+    padding: 0 20px;
+    border-right: 0.5px solid #464646f1;
+  }
+  .logo {
+    text-decoration: none;
+    font-size: 43px;
+    letter-spacing: -3.5px;
+    font-family: fujiyama;
+    align-items: center;
+    display: flex;
+    float: left;
+    height: 100%;
+    font-weight: 500;
+    color: rgb(252, 251, 251);
+    image-rendering: pixelated;
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+
+  }
+  /* Gender Group */
+  .gioitinh {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+  }
+  .gender {
+    width: 70px;
+    display: flex;
+    float: left;
+    height: 100%;
+    border-right: 0.5px solid #464646f1;
+    color: #fff;
+    padding: 0px 19px;
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    justify-content: center;
+  }
+  /* Hover effects */
+  .gender:hover {
+    background-color: #525050;
+  }
+  /* Search Input */
+  .mid_search {
+    width: 835px;
+    height: 100%;
+    display: flex;
+  }
+  .search {
+    display: flex;
+    width: 500px;
+    border-radius: 19px/50%;
+    margin-top: 11px;
+    margin-left: 30px;
+
+  }
+    .mid_input {
+      width: 90%;
+      margin: auto;
+      border-radius: 19px/50%;
+      padding-left: 16px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+    }
+  .mid_input_text {
+    color: #2d2d2d;
+    width: 96%;
+    font-size: 14px;
+    border: 0;
+    height: 38px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    font-family: system-ui;
+    letter-spacing: 0.4px;
+  }
+  
+  /* Mid Right */
+  .mid_right_group {
+    height: 100%;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    /* align-self: flex-end; */
+    display: flex;
+  }
+  .widgets {
+    width: 53px;
+    background-color: #2d2d2d;
+    border: none;
+    display: flex;
+  }
+  .widgets_icon {
+    list-style: none;
+    color: #fff;
+    box-sizing: border-box;
+    width: 27px;
+    height: 55px;
+  }
+  
+.bottom {
+    height: 50px;
+    width: 100%;
+    background-color: #525050;
+    display: flex;
+    padding: 0 67px;
+    font-size: 12px;
+    font-family: system-ui;
+  }

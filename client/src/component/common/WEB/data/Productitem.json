@@ -1,0 +1,79 @@
+[
+{
+    "id": 1,
+    "title": "Topman extreme oversized t-shirt with Michelangelo front and back letter print white",
+    "oldPrice": "3000",
+    "newPrice": "1500",
+    "discount": "50%",
+    "selling": true,
+    "defaultImageSrc": "https://images.asos-media.com/products/topman-extreme-oversized-t-shirt-with-michelangelo-front-and-back-letter-print-white/201279602-2?$n_240w$&wid=238&fit=constrain",
+    "hoverImageSrc": "https://images.asos-media.com/products/topman-extreme-oversized-t-shirt-with-michelangelo-front-and-back-letter-print-white/201279602-1-white?$n_320w$&wid=317&fit=constrain"
+
+},
+{
+    "id": 2,
+    "title": "Puma Downtown logo t-shirt in beige",
+    "oldPrice": "3000",
+    "newPrice": "1800",
+    "discount": "40%",
+    "selling": true,
+    "defaultImageSrc": "https://images.asos-media.com/products/puma-downtown-logo-t-shirt-in-beige/201222614-1-beige?$n_320w$&wid=317&fit=constrain",
+    "hoverImageSrc": "https://images.asos-media.com/products/puma-downtown-logo-t-shirt-in-beige/201222614-2?$n_240w$&wid=238&fit=constrain"
+
+},
+{
+    "id": 3,
+    "title": "Puma city graphic t-shirt in black",
+    "oldPrice": "2700",
+    "newPrice": "1800",
+    "discount": "33%",
+    "selling": true,
+    "defaultImageSrc": "https://images.asos-media.com/products/puma-city-graphic-t-shirt-in-black/203326166-1-black?$n_320w$&wid=317&fit=constrain",
+    "hoverImageSrc": "https://images.asos-media.com/products/puma-city-graphic-t-shirt-in-black/203326166-2?$n_320w$&wid=317&fit=constrain"
+
+},
+{
+    "id": 4,
+    "title": "ASOS DESIGN oversized t-shirt in white with San Diego city print",
+    "oldPrice": "2200",
+    "newPrice": "1350",
+    "discount": "38%",
+    "selling": true,
+    "defaultImageSrc": "https://images.asos-media.com/products/asos-design-oversized-t-shirt-in-white-with-san-diego-city-print/202111329-1-white?$n_320w$&wid=317&fit=constrain",
+    "hoverImageSrc": "https://images.asos-media.com/products/asos-design-oversized-t-shirt-in-white-with-san-diego-city-print/202111329-2?$n_240w$&wid=238&fit=constrain"
+
+},
+{
+    "id": 5,
+    "title": "Bolongaro Trevor t-shirt with back print in blue",
+    "oldPrice": "4000",
+    "newPrice": "1900",
+    "discount": "67%",
+    "selling": true,
+    "defaultImageSrc": "https://images.asos-media.com/products/bolongaro-trevor-t-shirt-with-back-print-in-blue/202230068-2?$n_240w$&wid=238&fit=constrain",
+    "hoverImageSrc": "https://images.asos-media.com/products/bolongaro-trevor-t-shirt-with-back-print-in-blue/202230068-1-blue?$n_320w$&wid=317&fit=constrain"
+
+},
+{
+    "id": 6,
+    "title": "Bolongaro Trevor Sports t-shirt in black",
+    "oldPrice": "2000",
+    "newPrice": "1200",
+    "discount": "75%",
+    "selling": true,
+    "defaultImageSrc": "https://images.asos-media.com/products/bolongaro-trevor-sports-t-shirt-in-black/202555703-1-black?$n_320w$&wid=317&fit=constrain",
+    "hoverImageSrc": "https://images.asos-media.com/products/bolongaro-trevor-sports-t-shirt-in-black/202555703-2?$n_320w$&wid=317&fit=constrain"
+
+},
+{
+    "id": 7,
+    "title": "Another Influence boxy fit pocket t-shirt in khaki",
+    "oldPrice": "2700",
+    "newPrice": "1800",
+    "discount": "69%",
+    "selling": true,
+    "defaultImageSrc": "https://images.asos-media.com/products/another-influence-boxy-fit-pocket-t-shirt-in-khaki/202191454-1-green?$n_320w$&wid=317&fit=constrain",
+    "hoverImageSrc": "https://images.asos-media.com/products/another-influence-boxy-fit-pocket-t-shirt-in-khaki/202191454-2?$n_240w$&wid=238&fit=constrain"
+
+}
+]
