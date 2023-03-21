@@ -49,9 +49,40 @@
     line-height: 24px;
     color: #2d2d2d;
 }
-.noidung h4{
+.noidung span{
     margin-top: 12px;
+    font-size: 20px;
+    font-weight: 900    ;
+    letter-spacing: .4px;
+    line-height: 22px;
+    color: #2d2d2d;
+    color: #666;
 }
+
+/* CSS Mau */
+.mau{
+    margin-bottom: 50px;
+
+}
+.mau h2 {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: #2d2d2d;
+}
+.mau p {
+    margin-left: 6px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: .4px;
+    line-height: 22px;
+    color: #2d2d2d;
+}
+
 
 /* CSS NÚt Mua và Tym */
 .tym{

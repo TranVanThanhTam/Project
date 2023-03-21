@@ -4,4 +4,5 @@ interface IPNetImgCommon {
     name:string;
     price:string;
     description:string;
+    Colour: string;
 }
