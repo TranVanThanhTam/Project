@@ -1,0 +1,25 @@
+.feature {
+    width: 300px;
+    padding: 7px;
+}
+
+.feature_img {
+    width: 100% ;
+    height: 382px;
+}
+
+.feature_title {
+    margin: auto;
+    padding-top: 20px;
+    width: fit-content;
+    height: 23px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.feature_paragraph {
+    margin: auto;
+    padding-top: 15px;
+    width: fit-content;
+}

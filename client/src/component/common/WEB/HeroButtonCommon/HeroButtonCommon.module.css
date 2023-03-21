@@ -1,0 +1,18 @@
+.hero_button {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.hero_button:hover {
+    background-color: black;
+    color: white;
+}
+
+.hideboder {
+    border: 0;
+}

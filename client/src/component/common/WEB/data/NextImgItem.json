@@ -5,16 +5,24 @@
       "description": "adidas Football Tiro 23 t-shirt in black and white",
       "Colour":"NAVY",
       "thumbnails": [
-        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-1-butterscotchfloral?$n_240w$&wid=168&fit=constrain",
-        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-2?$n_240w$&wid=40&fit=constrain",
-        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-3?$n_240w$&wid=40&fit=constrain",
-        "https://images.asos-media.com/products/asos-design-pleated-mini-dress-with-corset-waist-detail-in-romantic-floral-print/203745594-4?$n_240w$&wid=40&fit=constrain"
+        "https://i.pinimg.com/564x/b1/18/08/b118086b798f82377bb3a4a6bc0a4e15.jpg",
+     "https://i.pinimg.com/564x/53/f6/f3/53f6f3506567fc78f659aaf35ce4cbcb.jpg",
+     "https://i.pinimg.com/564x/34/e4/7a/34e47a8229a11df9617d9eef91b79f6e.jpg",
+     "https://i.pinimg.com/564x/f0/61/41/f06141052b8185a1578944a91e6548e7.jpg"
       ],
       "images": [
-        "https://i.pinimg.com/originals/59/80/54/5980543f1983c2b66e5671a78053fe7e.gif",
-        "https://i.pinimg.com/originals/a1/d1/0c/a1d10c114e9fc3712d3d398d05573f77.gif",
-        "https://i.pinimg.com/originals/04/76/8c/04768ce51fa5222fd0e5ec2b499196eb.gif",
-        "https://i.pinimg.com/originals/5c/06/77/5c06777d51f1292525060ce6b9fa3423.gif"
+        "https://i.pinimg.com/564x/b1/18/08/b118086b798f82377bb3a4a6bc0a4e15.jpg",
+     "https://i.pinimg.com/564x/53/f6/f3/53f6f3506567fc78f659aaf35ce4cbcb.jpg",
+     "https://i.pinimg.com/564x/34/e4/7a/34e47a8229a11df9617d9eef91b79f6e.jpg",
+     "https://i.pinimg.com/564x/f0/61/41/f06141052b8185a1578944a91e6548e7.jpg"
+      ],
+      "select":[
+        "XS - Chest 33-34",
+        "S - Chest 36-38",
+        "M - Chest 39-41",
+        "L - Chest 42-44",
+        "XL - Chest 45-48",
+        "2XL - Chest 49-53"
       ]
     }
 ]

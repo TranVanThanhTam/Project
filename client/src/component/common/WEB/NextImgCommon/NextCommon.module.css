@@ -3,12 +3,32 @@
     display: flex;
 
 }
+.row {
+    background-color: bisque;
+    width: 75%;
+    height: 20%;
+    padding-top: 50px;
+    display: flex;
+    margin-bottom: 100px;
+    margin: 0 auto;
+  }
+.col1{
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 120px;
+  }
+.col1 img{
+    padding-right: 33px;
+    width: 100px;
+    height: 90px;
+  }
+  
  /* CSS ẢNH */
 .img {
     height: 500px;
     /* display: none; */
-    margin-left: 170px;
-    width: 500px;
+    margin-left: 70px;
+    width: 555px;
 }
 
 .left {
@@ -20,7 +40,7 @@
 .right {
     left: 1%;
     font-size: 20px;
-   margin-left: 350px;
+   margin-left: 428px;
 }
 
 .nut button {

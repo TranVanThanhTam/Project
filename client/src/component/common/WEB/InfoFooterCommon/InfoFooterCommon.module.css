@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    width: 25%;
+    border-bottom: none;
+    margin-left: 0;
+    text-align: left;
+  }
+  .title {
+    border-bottom: none;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin: 0;
+    display: block;
+    line-height: normal;
+  }
+  .list {
+    margin: 0;
+    list-style: none;
+    line-height: 30px;
+    padding: 0 5px;
+    margin: 0 -5px;
+  }

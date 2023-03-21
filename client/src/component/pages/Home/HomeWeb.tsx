@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarLayout from "../../layout/NavbarLayout";
+import NavbarLayout from "../../layout/NavBar/NavbarLayout";
 import Products from "../products/Products";
 
 const HomeWeb: React.FC = () =>{

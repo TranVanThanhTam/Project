@@ -1,13 +1,13 @@
 import React from "react";
-import ButtonShopCommon from "../common/WEB/ButtonCommon/ButtonShopCommon";
+import ButtonShopCommon from "../../common/WEB/ButtonCommon/ButtonShopCommon";
 import Style from './Navbar.module.css'
-import ButtonItem from "../common/WEB/data/ButtonItem.json"
-import InputSearchCommon from "../common/input/InputSearchCommon"
+import ButtonItem from "../../common/WEB/data/ButtonItem.json"
+import InputSearchCommon from "../../common/input/InputSearchCommon"
 import { FiSearch } from "react-icons/fi";
 import { BsPerson } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { RiShoppingBagLine } from "react-icons/ri";
-import NextCommon from "../common/WEB/NextImgCommon/NextCommon";
+import NextCommon from "../../common/WEB/NextImgCommon/NextCommon";
 const NavbarLayout: React.FC = () => {
 
   return (

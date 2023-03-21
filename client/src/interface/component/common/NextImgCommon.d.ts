@@ -5,4 +5,5 @@ interface IPNetImgCommon {
     price:string;
     description:string;
     Colour: string;
+    select:string[];
 }

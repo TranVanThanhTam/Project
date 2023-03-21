@@ -6,8 +6,7 @@ import { AiOutlineDoubleRight } from "react-icons/ai"
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import 'react-bootstrap'
 import numeral from "numeral";
-
-
+import Form from 'react-bootstrap/Form';
 import { FiDivideCircle } from 'react-icons/fi';
 import { Col, Image, Button, Container, Row } from 'react-bootstrap';
 
@@ -23,9 +22,9 @@ const NextCommon: React.FC<IPNetImgCommon> = (props) => {
   const handleClick = () => {
     setIsShowLike(!isShowLike)
   }
-  // const handleThumbnailClick = (index: number) => {
-  //   setCurrentIndex(index);
-  // };
+  const handleThumbnailClick = (index: number) => {
+    setCurrentIndex(index);
+  };
 
   const handleNextClick = () => {
     currentIndex < (props.images).length - 1 && setCurrentIndex(currentIndex + 1)
@@ -34,13 +33,26 @@ const NextCommon: React.FC<IPNetImgCommon> = (props) => {
     currentIndex > 0 && setCurrentIndex(currentIndex - 1)
   }
   const formattedprice = props.price
-  ? numeral(props.price).format("$0,0")
-  : null;
+    ? numeral(props.price).format("$0,0")
+    : null;
   return (
 
 
     <Container className={Style.Carousel}>
       <Row className={Style.Carousel}>
+        
+          <Col className={Style.col1}>
+            <div className={Style.productthumbnails}>
+              {props.thumbnails.map((thumbnail, index) => (
+                <img
+                  key={index}
+                  src={thumbnail}
+                  alt={`Thumbnail ${index + 1}`}
+                  onClick={() => handleThumbnailClick(index)}
+                />
+              ))}
+           </div>
+          </Col>
         <Col className={Style.nut}>
           <div
             className={Style.img}
@@ -54,13 +66,20 @@ const NextCommon: React.FC<IPNetImgCommon> = (props) => {
 
           <div className={Style.noidung}>
             <p>{props.description}</p>
-            <span>{formattedprice ?? <span>{formattedprice}</span>}</span>
+            <span>{formattedprice ?? <span>{formattedprice}</span>} </span>
           </div>
 
           <div className={Style.mau}>
             <h2>COLOUR:</h2>
             <p>{props.Colour}</p>
           </div>
+
+          <Form.Select aria-label="Default select example">
+            <option>Please Select</option>
+            <option>{props.select}</option>
+
+          </Form.Select>
+
 
           <div className={Style.tym}>
             <button className={Style.mua}>ADD TO BAG</button>
@@ -69,6 +88,9 @@ const NextCommon: React.FC<IPNetImgCommon> = (props) => {
                 : <AiFillHeart className={Style.heart} />}
             </button>
           </div>
+
+
+
         </Col>
       </Row>
     </Container>
