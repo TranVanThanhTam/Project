@@ -35,24 +35,25 @@ const NextCommon: React.FC<IPNetImgCommon> = (props) => {
   const formattedprice = props.price
     ? numeral(props.price).format("$0,0")
     : null;
+
   return (
 
 
     <Container className={Style.Carousel}>
       <Row className={Style.Carousel}>
-        
-          <Col className={Style.col1}>
-            <div className={Style.productthumbnails}>
-              {props.thumbnails.map((thumbnail, index) => (
-                <img
-                  key={index}
-                  src={thumbnail}
-                  alt={`Thumbnail ${index + 1}`}
-                  onClick={() => handleThumbnailClick(index)}
-                />
-              ))}
-           </div>
-          </Col>
+
+        <Col className={Style.col1}>
+          <div className={Style.productthumbnails}>
+            {props.thumbnails.map((thumbnail, index) => (
+              <img
+                key={index}
+                src={thumbnail}
+                alt={`Thumbnail ${index + 1}`}
+                onClick={() => handleThumbnailClick(index)}
+              />
+            ))}
+          </div>
+        </Col>
         <Col className={Style.nut}>
           <div
             className={Style.img}
@@ -74,12 +75,23 @@ const NextCommon: React.FC<IPNetImgCommon> = (props) => {
             <p>{props.Colour}</p>
           </div>
 
-          <Form.Select aria-label="Default select example">
-            <option>Please Select</option>
-            <option>{props.select}</option>
+          <div className={Style.select} >
+            <label>Size:</label>
+            <Form.Select className={Style.forms} >
+              {props.select.map((item, index) => (
+                <option
+                  key={index}
+                  className='select-item'
+                  placeholder='Please select the sport'
+                >
+                  <span className='select-title' placeholder='Please select the sport'>{item}</span>
+                </option>
 
-          </Form.Select>
 
+              ))}
+
+            </Form.Select>
+          </div>
 
           <div className={Style.tym}>
             <button className={Style.mua}>ADD TO BAG</button>

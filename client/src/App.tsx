@@ -10,6 +10,12 @@
   import NextCommon from './component/common/WEB/NextImgCommon/NextCommon';
   import { Carousel } from 'react-bootstrap';
   import NavbarLayout from './component/layout/NavBar/NavbarLayout';
+  import SelectFormCommon from './component/common/WEB/SelectCommon/SelectFormCommon';
+  import SelectItem from './component/common/WEB/data/SelectItem.json'
+  import Select from './component/layout/Select';
+import CartShop from './component/common/WEB/CartCommon/CartShop';
+import CartItem from './component/common/WEB/data/CartItem.json'
+
 
   function App() {
     return (
@@ -19,10 +25,13 @@
       {/* <Products/> */}
       {/* <HomeWeb/> */}
       
-        <NavbarLayout/>
-        <NextCommon {...NextImgItem[0]}/>
+        {/* <NavbarLayout/>
+        <NextCommon {...NextImgItem[0]}/> */}
+        {/* <SelectFormCommon {...SelectItem[0]} /> */}
+
+        {/* <Select/> */}
         
-      
+      <CartShop {...CartItem[0]}/>
 
       
       <Provider store={store}>

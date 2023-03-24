@@ -1,0 +1,33 @@
+[
+    {
+        "img": "https://images.asos-media.com/products/asos-design-smart-tapered-shorts-in-green-scuba/204625602-1-mallardgreen",
+        "price": 27.00,
+        "color": "MALLARD GREEN",
+        "delivery": [
+            "Standard Delivery (£10.00)",
+            "Express Delivery (£20.00)"
+        ],
+        "title": "ASOS DESIGN smart tapered shorts in green scuba",
+        "size": [
+            "2XS",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "quantity": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ]
+    }
+]

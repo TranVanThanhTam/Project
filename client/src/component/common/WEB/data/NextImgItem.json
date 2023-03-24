@@ -11,18 +11,19 @@
      "https://i.pinimg.com/564x/f0/61/41/f06141052b8185a1578944a91e6548e7.jpg"
       ],
       "images": [
-        "https://i.pinimg.com/564x/b1/18/08/b118086b798f82377bb3a4a6bc0a4e15.jpg",
+      "https://i.pinimg.com/564x/b1/18/08/b118086b798f82377bb3a4a6bc0a4e15.jpg",
      "https://i.pinimg.com/564x/53/f6/f3/53f6f3506567fc78f659aaf35ce4cbcb.jpg",
      "https://i.pinimg.com/564x/34/e4/7a/34e47a8229a11df9617d9eef91b79f6e.jpg",
      "https://i.pinimg.com/564x/f0/61/41/f06141052b8185a1578944a91e6548e7.jpg"
       ],
-      "select":[
+       "select":[
         "XS - Chest 33-34",
         "S - Chest 36-38",
-        "M - Chest 39-41",
+       "M - Chest 39-41",
         "L - Chest 42-44",
-        "XL - Chest 45-48",
+         "XL - Chest 45-48",
         "2XL - Chest 49-53"
-      ]
+            ]
+     
     }
 ]

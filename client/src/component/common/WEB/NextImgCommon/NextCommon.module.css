@@ -103,7 +103,28 @@
     color: #2d2d2d;
 }
 
+.forms{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    font-family: "futura-pt-n4","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 245px;
+    height: 30px;
+    margin-bottom: 70px;
+    font-size: 15px;
+    margin-top: 15px;
 
+}
+.select label{
+    display: table-cell;
+    font-weight: 700;
+    font-family: math;
+    letter-spacing: 5px;
+
+    
+}
 /* CSS NÚt Mua và Tym */
 .tym{
     color: #d01345;
