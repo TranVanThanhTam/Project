@@ -1,0 +1,32 @@
+.productList{
+display: flex;
+width: 100%;
+margin: auto;
+flex-wrap: wrap;
+}
+
+
+.header{
+    background-color: gray;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.header p{
+    
+    padding: 50px 0;
+
+}
+
+.mid {
+width: 100%;
+}
+
+.Container {
+    width: 1372px;
+}

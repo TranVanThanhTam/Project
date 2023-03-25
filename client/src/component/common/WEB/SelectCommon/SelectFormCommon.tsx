@@ -1,9 +1,9 @@
 import clsx from "clsx";
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
-import Styles from "./SelectCommon.module.css";
+import Styles from "./SelectFormCommon.module.css";
 
-const SelectCommon: React.FC<IPSelectCommon> = (props) => {
+const SelectCommon: React.FC<IPropSelectCommon> = (props) => {
   const { title, list } = props;
   return (
     <div>
