@@ -1,0 +1,31 @@
+.input {
+  /* box-sizing: border-box; */
+  position: relative;
+  height: 20px;
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.664);
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.input_text {
+  border: none;
+  width: 90%;
+  height: 100%;
+  outline: 0;
+}
+.input_group {
+  margin-top: 2%;
+  font-size: 14px;
+  font-weight: 750;
+  color: #6b6b6b;
+  letter-spacing: 2px;
+}
+
+.input_group .label {
+  margin-top: 25px;
+  width: 20%;
+  font-size: 20px;
+  display: flex;
+}

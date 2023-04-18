@@ -4,6 +4,7 @@ const { Schema, model } = mongoose;
 const LogoCommonSchema = new Schema({
     link: { type: String, required: true },
     img: { type: String, required: true },
+    type: { type: String, required: true },
 });
 
 const LogoCommon = model('LogoCommon', LogoCommonSchema,)

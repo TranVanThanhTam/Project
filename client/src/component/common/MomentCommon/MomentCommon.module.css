@@ -1,0 +1,28 @@
+.bgmoment {
+    width: 500px;
+    padding: 0px 30px;
+}
+
+.moment_img {
+    width: 500px;
+    height: 638px;
+}
+
+.moment_title {
+    padding-top: 10px;
+    margin: auto;
+    width: fit-content;
+    letter-spacing: 2px;
+}
+
+.moment_paragraph {
+    margin: auto;
+    width: fit-content;
+    padding-top: 10px;
+}
+
+.moment_btn {
+    margin: auto;
+    width: 174px;
+    padding-top: 25px;
+}

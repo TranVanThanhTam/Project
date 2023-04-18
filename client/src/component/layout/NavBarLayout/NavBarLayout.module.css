@@ -1,0 +1,264 @@
+.top_bar {
+  height: 30px;
+  width: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1366px;
+  box-sizing: border-box;
+  padding: 0 32px;
+  justify-content: flex-end;
+}
+.lang_group {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  /* float: right; */
+}
+.lang {
+  display: flex;
+  float: left;
+  height: 100%;
+  border-left: 1px solid #ddd;
+  color: #666666;
+  padding: 0px 19px;
+  font-size: 13px;
+  font-family: candara;
+  align-items: center;
+  letter-spacing: 1px;
+}
+.img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #ddd;
+}
+
+.mid_bar {
+  width: 100%;
+  height: 60px;
+  background-color: #2d2d2d;
+  display: flex;
+}
+
+.mid_main {
+  width: 1366px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.mid_linklogo {
+  /* margin-left: -20px; */
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.mid_logo {
+  height: 20px;
+  /* TRADE LOGO TO WHITE */
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+
+.mid_btn {
+  display: flex;
+  background-color: #2d2d2d;
+}
+
+.mid_btnwomen {
+  background-color: #2d2d2d;
+  height: 100%;
+  width: 114px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding: 0;
+  font-size: 0.875rem;
+}
+
+.mid_btnwomen:hover {
+  background-color: #525050;
+}
+
+.mid_btnwomen_active {
+  background-color: #525050;
+}
+
+.mid_search {
+  width: 835px;
+  height: 60px;
+  display: flex;
+  
+}
+
+.mid_bginput {
+  width: 790px;
+  height: 38px;
+  margin: auto;
+}
+
+.mid_input {
+  width: 100%;
+  height: 38px;
+  font-size: 0.9rem;
+  border: 0;
+  border-radius: 19px/50%;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  color: #2d2d2d;
+  background: #fff;
+  letter-spacing: 0.4px;
+  outline: none;
+}
+
+.mid_right_group {
+  height: 100%;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+  /* align-self: flex-end; */
+  display: flex;
+  position: relative;
+}
+.widgets {
+  width: 53px;
+  background-color: #2d2d2d;
+  border: none;
+  display: flex;
+  position: relative;
+}
+.widgets_icon {
+  list-style: none;
+  color: #fff;
+  box-sizing: border-box;
+  width: 27px;
+  height: 55px;
+}
+
+.account_table {
+  position: absolute;
+  width: 306px;
+  transition-delay: 2s;
+  left: -175px;
+  /* top: 100%; */
+  transform: translate(0, 0px);
+  animation: fadeIn 0.1s ease-in-out;
+  z-index: 9999;
+}
+
+.table_top {
+  text-align: center;
+  margin-top: -7px;
+}
+.titleJ {
+  /* TEXT */
+  margin-top: 9px;
+  font-size: 14px;
+  color: #767676;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  /* TEXT-BOX */
+  width: 50%;
+  float: left;
+  border-radius: 0;
+  padding: 4px 0px 12px;
+  position: relative;
+  border-bottom: 2px solid #f1f1f1;
+}
+.titleJ:hover {
+  color: rgb(116, 136, 248);
+}
+.titleS {
+  /* TEXT */
+  margin-top: 9px;
+  font-size: 14px;
+  color: #767676;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  /* TEXT-BOX */
+  width: 50%;
+  float: left;
+  border-radius: 0;
+  padding: 4px 0px 12px;
+  position: relative;
+  border-bottom: 2px solid #f1f1f1;
+}
+.titleS:hover {
+  color: rgb(116, 136, 248);
+}
+.titleJ:after {
+  content: " ";
+  height: 20px;
+  width: 2px;
+  position: absolute;
+  right: 0px;
+  top: 5%;
+  background: #2d2d2d;
+  opacity: 0.1;
+}
+
+.table_bot {
+  background-color: #f7f7f7;
+  padding: 0;
+  text-align: center;
+}
+.wrap {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.wrap_icon {
+  width: 25%;
+  padding-top: 5px;
+}
+.icon {
+  width: 25px;
+  height: 40px;
+  display: inline-block;
+}
+.wrap_text {
+  width: 100%;
+  padding-left: 10px;
+  margin: 0px;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 0;
+  padding: 20px 0 17px;
+  position: relative;
+}
+.text {
+  font-size: 13px;
+  color: #767676;
+  letter-spacing: 2px;
+  text-decoration: none;
+  line-height: 1.7;
+}
+.text:hover {
+  color: rgb(116, 136, 248);
+}
+
+/* BOT BAR */
+
+.bot_bar {
+  width: 100%;
+  height: 50px;
+  background-color: #525050;
+}
+
+.bot_nav {
+  width: 1302px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+}

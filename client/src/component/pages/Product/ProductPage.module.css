@@ -1,0 +1,11 @@
+.bg_product {
+    width: 100%;
+}
+
+.product {
+    width: 1384px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:50px;
+}

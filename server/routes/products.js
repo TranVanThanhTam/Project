@@ -15,6 +15,7 @@ const { Product } = require("../models");
 router.get("/", function (req, res, next) {
   try {
     Product.find()
+    .populate("branch")
       .then((result) => {
         res.send(result);
       })

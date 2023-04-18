@@ -1,0 +1,9 @@
+.img {
+    height: 193px;
+    width: 193px;
+    padding: 8px;
+}
+
+.img:hover {
+    filter: opacity(50%);
+}

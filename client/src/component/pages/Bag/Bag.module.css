@@ -1,161 +1,166 @@
 * {
-    margin: 0;
-    border: 0;
-  }
-  .navbar {
-    position: absolute;
-    width: 100%;
-    height: 30%;
-  }
-  
-  .wrap_container {
-    /* max-width: 960px;
-    min-width: 500px; */
-    width: 100%;
-    background: #f3f1f1;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: center;
-  }
-  
-  /* CONFIRM LIST PRODUCTS */
-  .container {
-    font-family: sans-serif;
-    font-weight: 400;
-    width: 69%;
-    margin: 10px 11px 0 10px;
-  }
-  .bag_content_wrapper {
-    display: flex;
-    vertical-align: top;
-  }
-  .bag_name {
-    padding: 24px 30px;
-    margin-bottom: 8px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .name {
-    margin: 0;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-  }
-  .warning {
-    margin: 0;
-    float: right;
-    font-size: 11px;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-  }
-  
-  /* PRODUCT LIST */
-  .productList {
-    vertical-align: top;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    flex-wrap: nowrap;
-    align-items: stretch;
-  }
-  
-  /* SUB-TOTAL */
-  .total {
-    background-color: #fff;
-    margin: 10px 0 10px 0;
-    padding: 0px;
-  }
-  .subtotal {
-    letter-spacing: 2px;
-    font-family: sans-serif;
-    font-weight: 700;
-    line-height: 1.375em;
-    font-size: 14px;
-    text-align: right;
-    margin: 8px 0 0;
-    padding: 24px;
-  }
-  .total_price {
-    display: inline-block;
-    min-width: 95px;
-  }
-  
-  /* BAG-BOTTOM */
-  
-  /* SUB-TOTAL FORM */
-  
-  .total_wrapper {
-    height: max-content;
-    width: 320px;
-    background-color: #fff;
-    margin-top: 10px;
-    padding: 0 30px 0 30px;
-  
-    /* STICK TO THE TOP */
-    position: fixed;
-    top: 140px;
-  }
-  .total_top {
-    border-bottom: solid 1px rgb(235, 235, 235);
-    padding: 26px 0 22px 0;
-  }
-  .total_mid {
-    padding: 22px 0 15px 0;
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 2px;
-    font-weight: 700;
-  }
-  .mid_content {
-    padding: 0px 0 18px 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  /* SELECT DELIVERY */
-  .form_select {
-    padding: 9px 115px 12px 0px;
-    border-bottom: solid 1px rgb(235, 235, 235);
-    margin-bottom: 23px;
-    font-size: 13px;
-    font-family: inherit;
-  }
-  
-  .btn {
-    width: 100%;
-    height: 40px;
-    background-color: #069f58;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: 800;
-  }
-  
-  /* PAYMENT ICON */
-  .bot {
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
-  .payment {
-    /* background-color: #efe6ec; */
-    width: 100%;
-    list-style: none;
-    margin: 20px 0 20px 0px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    padding: 0;
-  }
-  .payment_icon {
-    width: 30px;
-    text-align: left;
-    margin-right: 10px;
-  }
+  border: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+}
+
+.wrap_container {
+  width: 100%;
+  background: #f3f1f1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+/* CONFIRM LIST PRODUCTS */
+.container {
+  font-family: futura-pt-n4, futura-pt, "Futura PT", Futura, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-weight: 400;
+}
+.bag_content_wrapper {
+  display: flex;
+  vertical-align: top;
+}
+.bag_content {
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
+  margin: 10px 11px 0 10px;
+
+  position: inherit;
+  margin-right: 320px;
+}
+.bag_name {
+  padding: 24px 30px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  margin: 0;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.warning {
+  margin: 0;
+  float: right;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+/* PRODUCT LIST */
+.productList {
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+/* SUB-TOTAL */
+.total {
+  background-color: #fff;
+  margin: 10px 0 10px 0;
+  padding: 0px;
+}
+.subtotal {
+  letter-spacing: 2px;
+  font-family: futura-pt-n7, futura-pt, "Futura PT", "Futura Book", Tahoma,Geneva, Verdana, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.375em;
+  font-size: 14px;
+  text-align: right;
+  margin: 8px 0 0;
+  padding: 24px;
+}
+.total_price {
+  display: inline-block;
+  min-width: 95px;
+}
+
+/* BAG-BOTTOM */
+
+/* SUB-TOTAL FORM */
+.total_form {
+  height: 360px;
+  width: 320px;
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 0 30px 0 30px;
+  /* STICK TO THE TOP */
+  position: fixed;
+  margin-left: 510px;
+}
+.total_top {
+  border-bottom: solid 1px rgb(235, 235, 235);
+  padding: 26px 0 22px 0;
+}
+.total_mid {
+  padding: 22px 0 15px 0;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.mid_content {
+  padding: 0px 0 18px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  background-color: #069f58;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.select {
+  width: 260px;
+  border-bottom: solid 1px #666;
+  margin-bottom: 10px;
+  height: 30px;
+  font-weight: 400;
+  color: #666;
+  font-size: 1.2em;
+  padding-bottom: 6px;
+}
+
+/* PAYMENT ICON */
+.bot {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.payment {
+  /* background-color: #efe6ec; */
+  width: 100%;
+  list-style: none;
+  margin: 20px 0 20px 0px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.payment_icon {
+  width: 30px;
+  text-align: left;
+  margin-right: 10px;
+}

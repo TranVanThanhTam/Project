@@ -6,6 +6,7 @@ const FeatureCommonSchema = new Schema({
     img: { type: String, required: true },
     title: { type: String, required: true },
     paragraph: { type: String, required: true },
+    type: { type: String, required: true },
 });
 
 const FeatureCommon = model('FeatureCommon', FeatureCommonSchema,)

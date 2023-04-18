@@ -9,12 +9,25 @@ const productSchema = new Schema({
     selling: { type: Boolean, required: true },
     imgLeave: { type: String, required: true },
     imgHover: { type: String, required: true },
-});
+    size: { type: String, required: true },
+},
+{
+  versionKey: false,
+},
+);
 
 // Virtuals
 productSchema.virtual('total').get(function () {
     return (this.price * (100 - this.discount)) / 100;
   });
+
+// Virtual with Populate
+productSchema.virtual('branch', {
+  ref: 'Branch',
+  localField: 'branchId',
+  foreignField: '_id',
+  justOne: true,
+});
 
 // Include virtuals
 

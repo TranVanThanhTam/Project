@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "title": "ASOS DESIGN batwing sleeve plunge mini dress in red",
+        "price": 8069,
+        "selling": true,
+        "discount": 50,
+        "imgLeave":"https://images.asos-media.com/products/viggo-fontaine-check-suit-trousers-in-navy/203762618-1-navy?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/viggo-fontaine-check-suit-trousers-in-navy/203762618-2?$n_320w$&wid=317&fit=constrain"
+    },
+    {
+        "id": 2,
+        "title": "ASOS EDITION Ada cross back crepe wedding dress with fishtail",
+        "newPrice": 3699,
+        "imgLeave":"https://images.asos-media.com/groups/viggo-pierre-suit-in-brown/140723-group-1?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/viggo-pierre-suit-jacket-in-brown/203762733-1-brown?$n_320w$&wid=317&fit=constrain"
+        
+    },
+    {
+        "id": 3,
+        "title": "NIKE AIR MAX 1 MASTER MAGMA ORANGE (W)",
+        "price": 6069,
+        "selling": true,
+        "discount": 20,
+        "imgLeave":"https://images.asos-media.com/products/asos-design-jersey-extreme-superflare-suit-trouser-in-sage/203371749-1-sage?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/asos-design-jersey-extreme-superflare-suit-trouser-in-sage/203371749-2?$n_320w$&wid=317&fit=constrain"
+    },
+    {
+        "id": 4,
+        "title": "NIKE AIR MAX 1 MASTER MAGMA ORANGE (W)",
+        "price": 9399,
+        "selling": true,
+        "discount": 10,
+        "imgLeave":"https://images.asos-media.com/products/asos-design-super-skinny-suit-jacket-in-grey/203230024-1-grey?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/asos-design-super-skinny-suit-jacket-in-grey/203230024-2?$n_320w$&wid=317&fit=constrain"
+    },
+    {
+        "id": 5,
+        "title": "NIKE AIR MAX 1 MASTER MAGMA ORANGE (W)",
+        "price": 9899,
+        "discount": 10,
+        "imgLeave":"https://images.asos-media.com/products/little-mistress-bridesmaid-suit-trouser-in-pink/203173994-1-pink?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/little-mistress-bridesmaid-suit-trouser-in-pink/203173994-2?$n_320w$&wid=317&fit=constrain"
+    },
+    {
+        "id": 6,
+        "selling": true,
+        "title": "NIKE AIR MAX 1 MASTER MAGMA ORANGE (W)",
+        "price":9800,
+        "imgLeave":"https://images.asos-media.com/products/new-look-skinny-suit-jacket-in-grey-blue-check/204553996-2?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/new-look-skinny-suit-jacket-in-grey-blue-check/204553996-1-navy?$n_320w$&wid=317&fit=constrain"
+    },
+    {
+        "id": 7,
+        "title": "NIKE AIR MAX 1 MASTER MAGMA ORANGE (W)",
+        "price": 7200,
+        "discount": 20,
+        "imgLeave":"https://images.asos-media.com/products/asos-luxe-kick-flare-suit-trouser-in-orange/203187227-1-orange?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/asos-luxe-kick-flare-suit-trouser-in-orange/203187227-2?$n_320w$&wid=317&fit=constrain"
+    },
+    {
+        "id": 8,
+        "title": "NIKE AIR MAX 1 MASTER MAGMA ORANGE (W)",
+        "price": 8900,
+        "discount": 20,
+        "selling": true,
+        "imgLeave":"https://images.asos-media.com/groups/asos-design-super-skinny-linen-mix-suit-in-burgundy/135037-group-1?$n_320w$&wid=317&fit=constrain",
+        "imgHover":"https://images.asos-media.com/products/asos-design-super-skinny-linen-mix-suit-trouser-in-burgundy/203852503-2?$n_320w$&wid=317&fit=constrain"
+    }
+]

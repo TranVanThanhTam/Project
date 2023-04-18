@@ -1,0 +1,27 @@
+.bot_btn {
+    margin: 0px 3px;
+    width: auto;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    letter-spacing: 0.8px;
+    background-color: #525050;
+    line-height: 50px;
+}
+
+.bot_btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.background {
+    font-size: .875rem;
+    transform: skew(-12deg);
+    background: #d01345;
+    font-weight: 700;
+}
+
+.bot_textbtn {
+    letter-spacing: .8px;
+    font-size: 13px;
+}

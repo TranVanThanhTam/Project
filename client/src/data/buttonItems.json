@@ -1,0 +1,67 @@
+[
+    {
+        "_id": 1,
+        "title": "Sale",
+        "background": true
+    },
+
+    {
+        "_id": 2,
+        "title": "New in",
+        "background": false
+    },
+
+    {
+        "_id": 3,
+        "title": "Clothing",
+        "background": false
+    },
+
+    {
+        "_id": 4,
+        "title": "Shoes",
+        "background": false
+    },
+
+    {
+        "_id": 6,
+        "title": "Accessories",
+        "background": false
+    },
+
+    {
+        "_id": 7,
+        "title": "Sportswear",
+        "background": false
+    },
+
+    {
+        "_id": 8,
+        "title": "Jeans",
+        "background": false
+    },
+
+    {
+        "_id": 9,
+        "title": "Brands",
+        "background": false
+    },
+
+    {
+        "_id": 10,
+        "title": "Topman",
+        "background": false
+    },
+
+    {
+        "_id": 11,
+        "title": "Outlet",
+        "background": true
+    },
+    
+    {
+        "_id": 12,
+        "title": "Marketplace",
+        "background": false
+    }
+]
