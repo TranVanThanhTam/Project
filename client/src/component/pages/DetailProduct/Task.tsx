@@ -1,5 +1,5 @@
 import React from "react";
-import DropDown from "./DropDetail";
+import OpenTask from "./OpenTask";
 
 interface DropdownItemProps {
   title: string;
@@ -9,9 +9,9 @@ interface DropdownItemProps {
 
 const DropDownDetail: React.FC<DropdownItemProps> = ({ title, children }) => {
   return (
-    <DropDown title={title}>
+    <OpenTask title={title}>
       {children}
-    </DropDown>
+    </OpenTask>
   );
 };
 

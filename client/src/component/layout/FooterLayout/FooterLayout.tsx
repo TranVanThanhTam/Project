@@ -28,17 +28,17 @@ const FooterLayout: React.FC = () => {
       <div className={Styles.container}>
         <div className={Styles.foot_top}>
           <div className={Styles.top_social}>
-            <ul className={Styles.social_group}>
-            {logoButton?.map((item) => (
-                <LogoButtonCommon {...item} />
+            <ul  className={Styles.social_group}>
+            {logoButton?.map((item, _id) => (
+                <LogoButtonCommon key={_id} {...item} />
             ))}
             </ul>
           </div>
         </div>
         <div className={Styles.info}>
           <div className={Styles.info_section}>
-            {listInfo?.map((item) => (
-                <InfoFooterCommon {...item} />
+            {listInfo?.map((item, _id) => (
+                <InfoFooterCommon  key={_id} {...item} />
             ))}
           </div>
         </div>

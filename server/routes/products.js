@@ -27,4 +27,20 @@ router.get("/", function (req, res, next) {
   }
 });
 
+// GET:id
+router.get("/:id", function (req, res, next) {
+  try {
+    const { id } = req.params;
+    Product.findById(id)
+      .then((result) => {
+        res.send(result);
+      })
+      .catch((err) => {
+        res.status(400).send({ message: err.message });
+      });
+  } catch (err) {
+    res.sendStatus(500);
+  }
+});
+
 module.exports = router;

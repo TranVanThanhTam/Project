@@ -38,7 +38,6 @@ const CardCommon: React.FC<ICardCommon> = (props) => {
 
     return (
         <div className={Styles.product}>
-            <Link className={Styles.link} to={ROUTES.ADMIN_DETAILPRODUCT}>
             <div className={Styles.image}
                     style={{ backgroundImage: `url(${imgUrl ? imgLeave : imgHover})`}}
                     onMouseOver={tradeImgUrl}
@@ -66,8 +65,6 @@ const CardCommon: React.FC<ICardCommon> = (props) => {
             <span className={Styles.new_price}>
                 {formattednewPrice ?? <span>{formattednewPrice}</span>}
             </span>
-
-            </Link>
         </div>
     )
 };

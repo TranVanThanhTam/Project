@@ -25,7 +25,7 @@ export const ROUTES = {
   ADMIN_PRODUCT_OUTLET: MENU_PARRENT.ADMIN + "/products/outlet",
   ADMIN_PRODUCT_MARKETPLACE: MENU_PARRENT.ADMIN + "/products/marketplace",
   //DETAILPRODUCT
-  ADMIN_DETAILPRODUCT: MENU_PARRENT.ADMIN + "products/detailproduct",
+  ADMIN_DETAILPRODUCT: MENU_PARRENT.ADMIN + "products/:productId",
   //LOGIN
   LOGIN: "/login",
   //REGISTER

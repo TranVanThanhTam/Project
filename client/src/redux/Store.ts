@@ -2,11 +2,11 @@ import { useDispatch } from "react-redux";
 import { AnyAction, configureStore, ThunkDispatch } from "@reduxjs/toolkit";
 import { ThunkAction } from "redux-thunk";
 import { Action } from "redux";
-// import UserReducer from "./user/User.reducer";
-// import { createLogger } from "redux-logger";
-import productsReducer from "./products/products.reducer";
 import UserReducer from "./user/User.reducer";
-import CommonReducer from "./Commom/Common.reducer";
+import ProductReducer from "./product/Product.reducer";
+import CommonReducer from "./common/Common.reducer";
+import cartReducer from "../component/features/cartSlice";
+// import { createLogger } from "redux-logger";
 
 // const loggerMiddleware = createLogger();
 
@@ -14,11 +14,11 @@ export const store = configureStore({
   reducer: {
     common: CommonReducer,
     user: UserReducer,
-    product: productsReducer,
+    cart: cartReducer,
+    product: ProductReducer,
   },
   // middleware: (getDefaultMiddleware) => {
-  //   return getDefaultMiddleware().concat(loggerMiddleware);//
-    
+  //   return getDefaultMiddleware().concat(loggerMiddleware);
   // },
   devTools: process.env.NODE_ENV !== "production",
 });
